@@ -1,0 +1,58 @@
+/* styles.css */
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+select#year, select#month {
+    padding: 10px;
+    font-size: 16px;
+}
+
+select#year {
+    background-color: #ffcccb; /* Reddish-pink */
+}
+
+select#month {
+    background-color: #a3c9f3; /* Blue */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Different background colors for each column title */
+th:nth-child(1) {
+    background-color: #ffcccb; /* Reddish-pink */
+}
+
+th:nth-child(2) {
+    background-color: #b5e7a0; /* Green */
+}
+
+th:nth-child(3) {
+    background-color: #a3c9f3; /* Blue */
+}

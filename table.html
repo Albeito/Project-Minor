@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tablestyle.css">
+    <title>Sensor Data Table</title>
+</head>
+<body>
+    <h1>Sensor Data</h1>
+    <label for="year">Select Year:</label>
+<select id="year">
+    <option value="2022">2022</option>
+    <option value="2023">2023</option>
+    <!-- Add more years as needed -->
+</select>
+
+<label for="month">Select Month:</label>
+<select id="month">
+    <option value="01">January</option>
+    <option value="02">February</option>
+    <option value="03">March</option>
+    <option value="04">April</option>
+    <option value="05">May</option>
+    <option value="06">June</option>
+    <option value="07">July</option>
+    <option value="08">August</option>
+    <option value="09">September</option>
+    <option value="10">October</option>
+    <option value="11">November</option>
+    <option value="12">December</option>
+</select>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Date/Time</th>
+                <th>Humidity Sensor</th>
+                <th>Motor Sensor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2023-09-13 10:00 AM</td>
+                <td>45%</td>
+                <td>On</td>
+            </tr>
+            <tr>
+                <td>2023-09-13 10:15 AM</td>
+                <td>48%</td>
+                <td>Off</td>
+            </tr>
+            <tr>
+                <td>2023-09-13 10:30 AM</td>
+                <td>50%</td>
+                <td>On</td>
+            </tr>
+            <tr>
+                <td>2023-09-13 11:00 AM</td>
+                <td>52%</td>
+                <td>Off</td>
+            </tr>
+            <tr>
+                <td>2023-09-13 11:15 AM</td>
+                <td>49%</td>
+                <td>On</td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </tbody>
+        
+    </table>
+</body>
+</html>
